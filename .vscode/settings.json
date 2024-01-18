@@ -1,0 +1,13 @@
+{
+    "files.associations": { "*.njk": "njk", "*.nj": "njk", "*.css": "tailwindcss" },
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "emmet.showExpandedAbbreviation": "always",
+    "emmet.includeLanguages": {
+      "ejs": "html",
+      "njk": "html",
+      "nunjucks": "html",
+      "Nunjucks": "html"
+    }
+  }
