@@ -1,3 +1,6 @@
-main{
+/* main{
     background-color: red;
+} */
+.hero-background{
+    background: linear-gradient(291deg, rgba(241, 116, 35, 0.75) 0.61%, rgba(217, 217, 217, 0.00) 102.08%);
 }

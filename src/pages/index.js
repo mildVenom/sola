@@ -1,6 +1,6 @@
 import * as React from "react"
-import NavBar from "../components/NavBar"
-import '../assets/styles/styles.css'
+import '../assets/styles/style.css'
+import Hero from "../components/landingPage/hero"
 
 // Dear future code maintainer,
 // I'm a very good developer, I promise. But at the time of writing this code, 
@@ -10,8 +10,7 @@ import '../assets/styles/styles.css'
 const IndexPage = () => {
   return (
     <main className="">
-      <NavBar />
-      
+      <Hero />
     </main>
   )
 }

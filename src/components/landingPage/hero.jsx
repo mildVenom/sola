@@ -1,9 +1,9 @@
 import React from 'react'
 
-function hero() {
+function Hero() {
   return (
-    <section className=''>hero</section>
+    <section className='min-h-screen hero-background'>Hero section</section>
   )
 }
 
-export default hero
+export default Hero
