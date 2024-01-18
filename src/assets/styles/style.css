@@ -6,11 +6,14 @@
     --primary-darker: #c2410c;
     --primary-darkest: #bc4110;
     --primary-yellow: #ffa200;
-    --bg-light: #FFFBF7;
+    --bg-light: #fffbf7;
+    --bane: #5f1c01;
 }
 .hero-background{
-    background: linear-gradient(291deg, rgba(241, 116, 35, 0.75) 0.61%, rgba(217, 217, 217, 0.00) 102.08%);
     cursor: url('../images/cursor.svg') 10 10, auto;
+}
+.inner-hero{
+    background: linear-gradient(291deg, rgba(241, 116, 35, 0.75) 0.61%, rgba(217, 217, 217, 0.00) 102.08%) !important;
 }
 .nav-list a{
     cursor: url('../images/hand.svg') 10 10, auto;
@@ -61,4 +64,8 @@ button{
 }
 .results-oriented{
     color: var(--primary-color);
+}
+.point-img{
+    transform: rotate(110deg);
+    display: inline-block;
 }

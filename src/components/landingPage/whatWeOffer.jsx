@@ -1,8 +1,12 @@
 import React from 'react'
+import cursor from '../../assets/images/cursor.svg';
+import cursorGreen from '../../assets/images/cursor-green.svg';
+import cursorYellow from '../../assets/images/cursor-yellow.svg';
 
 function WhatWeOffer() {
     return (
-        <section className='min-h-screen what-we-offer px-20 py-20 w-full'>
+        <section className='min-h-screen what-we-offer px-20 py-20 w-full z-10'>
+            
             <h1 className="text-lg font-medium text-gray-500 uppercase"><div className='line mb-2 bg-gray-400 mr-2'></div> What we offer</h1>
             <h1 className="text-4xl w-2/3 py-10 text-gray-700 ">
                 Our training programs are designed to be <span className="text-red-600">
@@ -12,7 +16,75 @@ function WhatWeOffer() {
                 </span>
             </h1>
 
-            <div className="programs-container"></div>
+            <div className="programs-container pt-10 flex justify-around items-center flex-col md:flex-row">
+                <ul class="list-none flex flex-col gap-10 flex-nowrap ">
+                    <li class=" text-center font-bold text-gray-700">
+                        <p className="text-lg">Training</p>
+                    </li>
+                    <li class=" flex justify-around gap-3 text-start">
+                        <img src={cursor} alt='cursor' className='point-img' />
+                        <p className="text-lg text-gray-500">Leadership Training</p>
+                    </li>
+                    <li class=" flex justify-around gap-3">
+                        <img src={cursor} alt='cursor' className='point-img' />
+                        <p className="text-lg text-gray-500">Performance Management</p>
+                    </li>
+                    <li class=" flex justify-around gap-3">
+                        <img src={cursor} alt='cursor' className='point-img' />
+                        <p className="text-lg text-gray-500">Change Management</p>
+                    </li>
+                    <li class=" flex justify-around gap-3">
+                        <img src={cursor} alt='cursor' className='point-img' />
+                        <p className="text-lg text-gray-500">Motivational Talks</p>
+                    </li>
+                </ul>
+
+                <ul class="list-none flex flex-col gap-10 flex-nowrap ">
+                    <li class=" text-center font-bold text-gray-700">
+                        <p className="text-lg">Mentoring</p>
+                    </li>
+                    <li class=" flex justify-around gap-3">
+                        <img src={cursorGreen} alt='cursor' className='point-img' />
+                        <p className="text-lg text-gray-500">Mentorship Programmes</p>
+                    </li>
+                    <li class=" flex justify-around gap-3">
+                        <img src={cursorGreen} alt='cursor' className='point-img' />
+                        <p className="text-lg text-gray-500">Counselling Programmes</p>
+                    </li>
+                    <li class=" flex justify-around gap-3">
+                        <img src={cursorGreen} alt='cursor' className='point-img' />
+                        <p className="text-lg text-gray-500">Employment Programmes</p>
+                    </li>
+                    <li class=" flex justify-around gap-3">
+                        <img src={cursorGreen} alt='cursor' className='point-img' />
+                        <p className="text-lg text-gray-500">Youth Programmes</p>
+                    </li>
+                </ul>
+
+                <ul class="list-none flex flex-col gap-10 flex-nowrap ">
+                    <li class=" text-center font-bold text-gray-700">
+                        <p className="text-lg">Personal Development</p>
+                    </li>
+                    <li class=" flex justify-around gap-3">
+                        <img src={cursorYellow} alt='cursor' className='point-img' />
+                        <p className="text-lg text-gray-500">Upskilling & Reskilling Training</p>
+                    </li>
+                    <li class=" flex justify-around gap-3">
+                        <img src={cursorYellow} alt='cursor' className='point-img' />
+                        <p className="text-lg text-gray-500">Wellness & Well-Being Training</p>
+                    </li>
+                    <li class=" flex justify-around gap-3">
+                        <img src={cursorYellow} alt='cursor' className='point-img' />
+                        <p className="text-lg text-gray-500">Stress Management In The Workplace</p>
+                    </li>
+                    <li class=" flex justify-around gap-3">
+                        <img src={cursorYellow} alt='cursor' className='point-img' />
+                        <p className="text-lg text-gray-500">Mental Health Awareness</p>
+                    </li>
+                </ul>
+
+
+            </div>
         </section>
     )
 }
