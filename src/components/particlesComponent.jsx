@@ -17,7 +17,7 @@ function ParticlesComponent() {
     };
 
     return (
-        <div className='min-h-screen z-0 max-h-screen'>
+        <div className='z-0'>
             {init && (
                 <Particles
                     id="tsparticles"

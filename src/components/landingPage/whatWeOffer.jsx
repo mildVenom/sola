@@ -2,13 +2,17 @@ import React from 'react'
 import cursor from '../../assets/images/cursor.svg';
 import cursorGreen from '../../assets/images/cursor-green.svg';
 import cursorYellow from '../../assets/images/cursor-yellow.svg';
+import { toast } from 'react-toastify';
 
 function WhatWeOffer() {
+    function handleSeeMore(){
+        return toast("Coming soon!")
+    }
     return (
-        <section className='min-h-screen what-we-offer px-20 py-20 w-full z-10'>
+        <section className='what-we-offer px-20 py-20 w-full z-10'>
             
             <h1 className="text-lg font-medium text-gray-500 uppercase"><div className='line mb-2 bg-gray-400 mr-2'></div> What we offer</h1>
-            <h1 className="text-4xl w-2/3 py-10 text-gray-700 ">
+            <h1 className="text-3xl md:text-4xl w-3/3 px-10 md:px-40 text-center py-10 text-gray-700 ">
                 Our training programs are designed to be <span className="text-red-600">
                     engaging
                 </span>, practical, and <span className="results-oriented">
@@ -16,8 +20,8 @@ function WhatWeOffer() {
                 </span>
             </h1>
 
-            <div className="programs-container pt-10 flex justify-around items-center flex-col md:flex-row">
-                <ul class="list-none flex flex-col gap-10 flex-nowrap ">
+            <div className="programs-container md:pt-5 flex justify-around items-center flex-col md:flex-row gap-10 flex-wrap">
+                <ul class="list-none flex flex-col gap-10 flex-nowrap shadow-lg md:shadow-none px-10 py-10 rounded md:rounded-none">
                     <li class=" text-center font-bold text-gray-700">
                         <p className="text-lg">Training</p>
                     </li>
@@ -39,7 +43,7 @@ function WhatWeOffer() {
                     </li>
                 </ul>
 
-                <ul class="list-none flex flex-col gap-10 flex-nowrap ">
+                <ul class="list-none flex flex-col gap-10 flex-nowrap shadow-lg md:shadow-none px-10 py-10 rounded md:rounded-none">
                     <li class=" text-center font-bold text-gray-700">
                         <p className="text-lg">Mentoring</p>
                     </li>
@@ -61,7 +65,7 @@ function WhatWeOffer() {
                     </li>
                 </ul>
 
-                <ul class="list-none flex flex-col gap-10 flex-nowrap ">
+                <ul class="list-none flex flex-col gap-10 flex-nowrap shadow-lg md:shadow-none px-10 py-10 rounded md:rounded-none">
                     <li class=" text-center font-bold text-gray-700">
                         <p className="text-lg">Personal Development</p>
                     </li>
@@ -82,9 +86,10 @@ function WhatWeOffer() {
                         <p className="text-lg text-gray-500">Mental Health Awareness</p>
                     </li>
                 </ul>
-
-
             </div>
+            <p className='text-md text-red-800 capitalize text-end font-bold pt-10 see-more-programs'>
+            <a className="" onClick={handleSeeMore}>see more programs</a>
+            </p>
         </section>
     )
 }

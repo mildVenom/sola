@@ -9,6 +9,9 @@
     --bg-light: #fffbf7;
     --bane: #5f1c01;
 }
+.hand-cursor{
+    cursor: url('../images/hand.svg') 10 10, auto !important;
+}
 .hero-background{
     cursor: url('../images/cursor.svg') 10 10, auto;
 }
@@ -68,4 +71,25 @@ button{
 .point-img{
     transform: rotate(110deg);
     display: inline-block;
+}
+.see-more-programs{
+    cursor: url('../images/hand.svg') 10 10, auto !important;
+}
+.about-landing{
+    cursor: url('../images/cursor-yellow.svg') 10 10, auto;;
+}
+.quote{
+    cursor: url("../images/cursor-yellow.svg") 10 10, auto;
+}
+.get-started{
+    cursor: url('../images/cursor.svg') 10 10, auto;
+}
+.footer{
+    cursor: url('../images/cursor-green.svg') 10 10, auto;
+}
+.footer-inner{
+    background: linear-gradient(291deg, rgba(241, 116, 35, 0.75) 0.61%, rgba(217, 217, 217, 0.00) 102.08%) !important;
+}
+.footer a:hover{
+    cursor: url('../images/hand.svg') 5 5, auto;
 }
