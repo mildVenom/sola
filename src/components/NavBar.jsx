@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import icon from '../assets/images/logo.png';
+import { Link } from 'gatsby';
 
 const Navigation = () => {
     const [isNavOpen, setIsNavOpen] = useState(false);
@@ -15,13 +16,13 @@ const Navigation = () => {
             <div className={`nav-list middleNav ${isNavOpen ? 'block' : 'hidden'} md:flex`}>
                 <ul className="flex flex-col md:flex-row gap-4 md:gap-16 items-center justify-center md:py-0 py-8 font-medium md:text-md text-gray-700">
                     <li className="nav-li active no-underline capitalize hover:text-orange-700">
-                        <a href="#"  className=" nav-li active:text-orange-500">Home</a>
+                        <Link to="/"  className=" nav-li active:text-orange-500">Home</Link>
                     </li> 
                     <li className=" no-underline capitalize hover:text-orange-700">
-                        <a href="#"  className=" nav-li active:text-orange-500">About</a>
+                        <Link href="/about"  className=" nav-li active:text-orange-500">About</Link>
                     </li> 
                     <li className=" no-underline capitalize hover:text-orange-700">
-                        <a href="#" className=" nav-li active:text-orange-500 text-nowrap">What we offer</a>
+                        <Link href="what-we-offer" className=" nav-li active:text-orange-500 text-nowrap">What we offer</Link>
                     </li>
                 </ul>
             </div>
@@ -38,19 +39,17 @@ const Navigation = () => {
             <div className={`md:hidden ${isNavOpen ? 'block' : 'hidden'}`}>
                 <ul className="flex flex-col justify-center items-center mt-4">
                     <li>
-                        <a href="#" className="block py-2 px-4 text-orange-500 hover:bg-orange-500 hover:text-white">
+                        <Link to="/" className="active block py-2 px-4 text-orange-500 hover:bg-orange-500 hover:text-white">
                             Home
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#" className="block py-2 px-4 text-orange-500 hover:bg-orange-500 hover:text-white">
-                            About
-                        </a>
+                        <Link to='/about' className='block py-2 px-4 text-orange-500 hover:bg-orange-500 hover:text-white'>About</Link>
                     </li>
                     <li>
-                        <a href="#" className="block py-2 px-4 text-orange-500 hover:bg-orange-500 hover:text-white">
+                        <Link to="/what-we-offer" className="block py-2 px-4 text-orange-500 hover:bg-orange-500 hover:text-white">
                             What we offer
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>

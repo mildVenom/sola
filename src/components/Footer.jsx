@@ -2,6 +2,8 @@ import React from 'react'
 import img1 from '../assets/images/swimming.jpg'
 
 function Footer() {
+  const currentDate = new Date();
+  const year = currentDate.getFullYear();
   return (
     <section className='footer bg-white'>
       <div className="footer-inner w-full-h-full px-20 py-20">
@@ -54,6 +56,7 @@ function Footer() {
 
         </div>
       </div>
+      <div className="w-full text-center py-4 font-medium text-lg">&copy; The School Of Life Art, {year} </div>
     </section>
   )
 }
