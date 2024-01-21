@@ -10,7 +10,7 @@ const Navigation = () => {
     };
 
     return (
-        <nav className='flex items-center justify-between gap-3 px-4 py-2 md:py-2 md:px-36 shadow top-0  w-full z-50'>
+        <nav className='bg-white flex items-center justify-between gap-3 px-4 py-2 md:py-2 md:px-36 shadow top-0  w-full z-50'>
             <img src={icon} alt="school of life art logo" className='h-30 w-60' />
 
             <div className={`nav-list middleNav ${isNavOpen ? 'block' : 'hidden'} md:flex`}>
@@ -19,10 +19,10 @@ const Navigation = () => {
                         <Link to="/"  className=" nav-li active:text-orange-500">Home</Link>
                     </li> 
                     <li className=" no-underline capitalize hover:text-orange-700">
-                        <Link href="/about"  className=" nav-li active:text-orange-500">About</Link>
+                        <Link to="/about"  className=" nav-li active:text-orange-500">About</Link>
                     </li> 
                     <li className=" no-underline capitalize hover:text-orange-700">
-                        <Link href="whatWeOffer" className=" nav-li active:text-orange-500 text-nowrap">What we offer</Link>
+                        <Link to="/whatWeOffer" className=" nav-li active:text-orange-500 text-nowrap">What we offer</Link>
                     </li>
                 </ul>
             </div>

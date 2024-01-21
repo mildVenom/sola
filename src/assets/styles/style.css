@@ -97,79 +97,44 @@ button{
 /* about page */
 
 .offerings{
-    background-color: var(--bane);
-    /* background-color: var(--primary-yellow); */
-    border-radius: 5px;
-    position: relative;
+    background-color: var(--bg-light);
+    width: 100%;
+    height: auto;
 }
-.offer-training{
-    position: relative;
-    height: 100vh;
+.offering-right, .offering-left{
+    height: 500px;
+    max-height: 500px;
+    overflow-y: scroll;
+    width: 100%;
 }
-.left-offer{
-    position: relative;
-    transform-origin: 0; 
-}
-
-
-.offer-training1{
-    height: 100vh;
+.offering-right-1{
+    width: 100%;
+    height: 500px;
     background-image: url('../images/o1.jpg');
-    background-size: cover;
     background-position: center top;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    border-radius: 10px;
+    /* background-attachment: fixed; */
 }
-/* .offer-training1::before {
-    content: "";
-    max-height: 100vh;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.8); 
-} */
-.offer-training2{
-    height: 100%;
+.offering-right-2{
+    width: 100%;
+    height: 500px;
     background-image: url('../images/o2.jpg');
-    background-size: cover;
     background-position: center top;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    border-top: 2px solid white;
+    border-radius: 10px;
+    /* background-attachment: fixed; */
 }
-.offer-training2::before {
-    content: "";
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.8); /* Adjust the alpha channel as needed */
-}
-.cool{
-    top: 50%;
-    left: 40%;
-    width: 50%;
-}
-.offer-training3{
-    height: 100vh;
+.offering-right-3{
+    width: 100%;
+    height: 500px;
     background-image: url('../images/o3.jpg');
-    background-size: cover;
     background-position: center top;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.offer-training3::before {
-    content: "";
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.8); /* Adjust the alpha channel as needed */
+    border-radius: 10px;
+    /* background-attachment: fixed; */
 }
 /* end about page */

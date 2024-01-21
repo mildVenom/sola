@@ -1,12 +1,10 @@
 import React from 'react'
-import Navigation from '../NavBar'
 import img1 from '../../assets/images/img1.jpg'
 
 function Hero() {
     return (
         <section className='hero-background z-10 bg-white'>
             <div className="inner-hero w-full h-full">
-                <Navigation />
                 <div className="mid-section px-16 md:px-30 gap-5 py-4 flex justify-center items-center flex-col lg:flex-row ">
                     <div className="left-container bg-dark flex-1 lg:w-3/4 flex justify-end flex-col py-10">
                         <h1 className="font-bold text-5xl text-gray-700 ">Dedicated to empowering students, individuals and organizations to reach their full potential</h1>
