@@ -3,7 +3,7 @@ import '../assets/styles/style.css'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from "../components/Footer";
-import Navigation from "../components/NavBar";
+import Training from "../components/aboutPage/training";
 
 // Dear future code maintainer,
 // I'm a very good developer, I promise. But at the time of writing this code, 
@@ -13,9 +13,9 @@ import Navigation from "../components/NavBar";
 const AboutPage = () => {
   return (
     <main className="">
-        <Navigation />
-        <Footer />
-      <ToastContainer/>
+      <Training />
+      <Footer />
+      <ToastContainer />
     </main>
   )
 }

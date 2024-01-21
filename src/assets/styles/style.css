@@ -93,3 +93,83 @@ button{
 .footer a:hover{
     cursor: url('../images/hand.svg') 5 5, auto;
 }
+
+/* about page */
+
+.offerings{
+    background-color: var(--bane);
+    /* background-color: var(--primary-yellow); */
+    border-radius: 5px;
+    position: relative;
+}
+.offer-training{
+    position: relative;
+    height: 100vh;
+}
+.left-offer{
+    position: relative;
+    transform-origin: 0; 
+}
+
+
+.offer-training1{
+    height: 100vh;
+    background-image: url('../images/o1.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* .offer-training1::before {
+    content: "";
+    max-height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8); 
+} */
+.offer-training2{
+    height: 100%;
+    background-image: url('../images/o2.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top: 2px solid white;
+}
+.offer-training2::before {
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8); /* Adjust the alpha channel as needed */
+}
+.cool{
+    top: 50%;
+    left: 40%;
+    width: 50%;
+}
+.offer-training3{
+    height: 100vh;
+    background-image: url('../images/o3.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.offer-training3::before {
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8); /* Adjust the alpha channel as needed */
+}
+/* end about page */

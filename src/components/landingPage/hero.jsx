@@ -16,7 +16,7 @@ function Hero() {
                         </button>
                     </div>
                     <div className="right-container flex-1 lg:w-1/4 flex justify-center items-center relative">
-                        <img src={img1} alt="people sitting together" className="hero-right border-4 border-orange-500 p-2 rounded-full" width={400} />
+                        <img src={img1} alt="people sitting together" className="hero-right border-4 border-orange-500 p-2 rounded-full" width={400} loading='eager' />
                         <svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1" style={{ position: "absolute", width: "100px", height: "100px", top: 0, left: 0, zIndex: 1, transform: "rotate(180deg)" }}>
                             <defs>
                                 <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
