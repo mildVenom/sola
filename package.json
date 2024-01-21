@@ -18,6 +18,7 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.1.0",
     "autoprefixer": "^10.4.16",
+    "boxicons": "^2.1.4",
     "gatsby": "^5.13.1",
     "gatsby-plugin-image": "^3.13.0",
     "gatsby-plugin-manifest": "^5.13.0",

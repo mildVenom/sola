@@ -16,7 +16,6 @@ function LandingPage() {
             <About />
             <GetStarted />
             <Quote />
-            <Footer />
         </>
     )
 }

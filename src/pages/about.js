@@ -22,4 +22,4 @@ const AboutPage = () => {
 
 export default AboutPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>About</title>
