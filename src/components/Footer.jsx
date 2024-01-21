@@ -40,16 +40,18 @@ function Footer() {
             </h1>
             {/* <p className="text-gray-500 text-md py-5">e offer a wide range of comprehensive training programs tailored to meet the diverse needs of our clients.</p> */}
             <div className="flex flex-col justify-center items-start gap-5 py-5 text-lg text-gray-700">
-              <div className="flex-1">
-              <box-icon type='solid' name='phone'></box-icon>
+              <div className="flex-1 flex flex-row gap-3">
+                <box-icon type='solid' name='phone' color="#bc4110"></box-icon>
                 <p><a href="tel:+254 712345678" className='hover:text-green-600 transi duration-300 ease-in-out
                 '>+254 712345678</a></p>
               </div>
-              <div className="flex-1">
+              <div className="flex-1 flex flex-row gap-3">
+                <box-icon name='gmail' type='logo' color="#bc4110"></box-icon>
                 <p><a href="mailto:info@theschooloflifeart.com" className='hover:text-green-600 transi duration-300 ease-in-out
                 '>info@theschooloflifeart.com</a></p>
               </div>
-              <div className="flex-1">
+              <div className="flex-1 flex flex-row gap-3">
+                <box-icon name='current-location' color="#bc4110"></box-icon>
                 <p>P.O BOX 16796 00100, Nairobi Kenya, Raphta Road Westlands</p>
               </div>
             </div>

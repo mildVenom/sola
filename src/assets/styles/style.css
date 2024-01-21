@@ -79,6 +79,7 @@ button{
     cursor: url('../images/cursor-yellow.svg') 10 10, auto;;
 }
 .quote{
+    height: 90vh !important;
     cursor: url("../images/cursor-yellow.svg") 10 10, auto;
 }
 .get-started{

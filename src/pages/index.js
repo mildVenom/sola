@@ -18,8 +18,6 @@ const IndexPage = () => {
     <main className="">
       <Navigation />
       <LandingPage />
-      <About />
-      <WhatWeOffer />
       <ToastContainer/>
       <Footer />
     </main>

@@ -13,4 +13,5 @@ function whatWeOffer() {
   )
 }
 
-export default whatWeOffer
+export default whatWeOffer;
+export const Head = () => <title>What We Offer</title>
