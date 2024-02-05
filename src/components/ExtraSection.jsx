@@ -32,7 +32,7 @@ function ExtraSection() {
                 <div className="absolute  text-orange-500 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                     <h1 className="text-4xl font-bold">Elevating Performance through Collaborative Excellence</h1>
                     <p className="tex-2xl text-center text-gray-300">
-                    Empower your team with transformative training experiences at [Your Company Name]. Together, we thrive, learn, and conquer challenges as one unstoppable force!
+                    Empower your team with transformative training experiences. Together, we thrive, learn, and conquer challenges as one unstoppable force!
                     </p>
                 </div>
             </div>
