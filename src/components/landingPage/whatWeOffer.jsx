@@ -47,7 +47,7 @@ function WhatWeOffer() {
                     <li class=" text-center font-bold text-gray-700">
                         <p className="text-lg">Mentoring</p>
                     </li>
-                    <ul className='list-none flex flex-col gap-10 flex-nowrap shadow-lg md:shadow-none px-10 py-5 rounded md:rounded-none'>
+                    <ul className='list-none flex flex-col gap-10 flex-nowrap px-10 py-5 rounded md:rounded-none'>
                         <li class=" text-center font-bold text-gray-700">
                             <p className="text-lg">Educational mentoring</p>
                         </li>
@@ -60,7 +60,7 @@ function WhatWeOffer() {
                             <p className="text-lg text-gray-500">Counselling Programmes</p>
                         </li>
                     </ul>
-                    <ul className="list-one flex flex-col gap-10 flex-nowrap shadow-lg md:shadow-none px-10 py-5 rounded md:rounded-none">
+                    <ul className="list-one flex flex-col gap-10 flex-nowrap px-10 py-5 rounded md:rounded-none">
                         <li class=" text-center font-bold text-gray-700">
                             <p className="text-lg">Career Mentoring</p>
                         </li>
