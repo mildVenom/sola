@@ -1,5 +1,9 @@
 import React from 'react'
 import Navigation from '../NavBar'
+import image1 from '../../assets/images/image1.jpg'
+import image2 from '../../assets/images/image2.jpg'
+import image3 from '../../assets/images/image3.jpg'
+import image4 from '../../assets/images/image4.jpg'
 
 function Offer() {
     return (
@@ -14,156 +18,72 @@ function Offer() {
                     <h3 className="offer-text text-2xl md:text-3xl font-semibold text-orange-600 pt-10">Join Our Programmes</h3>
                 </div>
             </div>
-            <section className='offerings  py-10 relative '>
-                <div className="offering-1 px-5  md:px-40  py-10 md:py-0  flex justify-between w-full h-full flex-wrap md:flex-nowrap items-center relative gap-y-10 mb-20">
-                    <div className="offering-left w-full px-10 overflow-scroll">
-                        <p className="text-center text-3xl text-orange-600 mb-6">Training Programmes</p>
-
-                        <ul className="list-none p-0 py-10 ">
-                            <li className="mb-3">
-                                <div className="bg-green-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-green-800">Leadership Training</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 1.</p> */}
-                                </div>
-                            </li>
-                            <li className="mb-3">
-                                <div className="bg-yellow-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-yellow-800">Performance Management</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 2.</p> */}
-                                </div>
-                            </li>
-                            <li>
-                                <div className="bg-orange-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-orange-800">Change Management</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 3.</p> */}
-                                </div>
-                            </li><li className="mb-3">
-                                <div className="bg-green-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-green-800">Strategic Management</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 1.</p> */}
-                                </div>
-                            </li>
-                            <li className="mb-3">
-                                <div className="bg-yellow-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-yellow-800">Life Coaching</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 2.</p> */}
-                                </div>
-                            </li>
-                            <li>
-                                <div className="bg-orange-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-orange-800">Women in Leadership Development</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 3.</p> */}
-                                </div>
-                            </li>
-                            <li className="mb-3">
-                                <div className="bg-yellow-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-yellow-800">Motivational Talks</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 2.</p> */}
-                                </div>
-                            </li>
-                            <li>
-                                <div className="bg-orange-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-orange-800">Communication & Presentation Skills</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 3.</p> */}
-                                </div>
-                            </li>
-                        </ul>
+            <section className='offerings relative px-20'>
+                <div className='my-5 border border-orange-600 rounded-3xl w-full h-auto flex justify-around items-center flex-row flex-wrap '>
+                    <div className='h-full w-auto md:p-5 p-0 flex justify-center items-center'>
+                        <img src={image1} className="sm:w-full md:w-80 h-1/3 border rounded-3xl" alt='awesome' />
                     </div>
-
-                    <div className="offering-right offering-right-1 w-full h-full">
-                    </div>
-                </div>
-                <div className="offering-1 px-5  md:px-40  py-10 md:py-0  flex justify-between w-full h-full flex-wrap md:flex-nowrap items-center relative gap-y-10 mb-20">
-                    <div className="offering-right offering-right-2 w-full h-full">
-                    </div>
-                    <div className="offering-left w-full h-full">
-                        <p className="text-center text-3xl text-orange-600 mb-6">Mentorship Programmes</p>
-
-                        <ul className="list-none p-0 py-10 ">
-                            <li className="mb-3">
-                                <div className="bg-green-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-green-800">Mentorship Programmes</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 1.</p> */}
-                                </div>
-                            </li>
-                            <li className="mb-3">
-                                <div className="bg-yellow-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-yellow-800">Counselling Programmes</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 2.</p> */}
-                                </div>
-                            </li>
-                            <li>
-                                <div className="bg-orange-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-orange-800">Employment Programme</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 3.</p> */}
-                                </div>
-                            </li><li className="mb-3">
-                                <div className="bg-green-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-green-800">Youth Programme</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 1.</p> */}
-                                </div>
-                            </li>
-                            <li className="mb-3">
-                                <div className="bg-yellow-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-yellow-800">Team Building</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 2.</p> */}
-                                </div>
-                            </li>
-                            <li>
-                                <div className="bg-orange-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-orange-800">Corporate Team Building</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 3.</p> */}
-                                </div>
-                            </li>
+                    <div className="">
+                        <h3 className="h3 text-center text-3xl text-bold text-gray-700 pt-10">Training Programmes</h3>
+                        <ul className='list-disc flex flex-row gap-10 flex-wrap pt-5 pb-3 px- justify-center items-center text-gray-600'>
+                            <div className="">
+                                <li className='md:text-xl text-md'>Leadership Training</li>
+                                <li className='md:text-xl text-md'>Performance Management</li>
+                                <li className='md:text-xl text-md'>Change Management</li>
+                                <li className='md:text-xl text-md'>Strategic Management</li>
+                            </div>
+                            <div className="">
+                                <li className='md:text-xl text-md'>Communication & Presentation Skills</li>
+                                <li className='md:text-xl text-md'>Life Coaching</li>
+                                <li className='md:text-xl text-md'>Women in leadership Development</li>
+                                <li className='md:text-xl text-md'>Motivational Talks</li>
+                            </div>
                         </ul>
                     </div>
                 </div>
-                <div className="offering-1 px-5  md:px-40  py-10 md:py-0  flex justify-between w-full h-full flex-wrap md:flex-nowrap items-center relative gap-y-10 mb-20">
-                    <div className="offering-left w-full h-full">
-                        <p className="text-center text-3xl text-orange-600 mb-6">Personal Development Programme</p>
 
-                        <ul className="list-none p-0 py-10 ">
-                            <li className="mb-3">
-                                <div className="bg-green-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-green-800">Upskilling and Re-skilling Training</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 1.</p> */}
-                                </div>
-                            </li>
-                            <li className="mb-3">
-                                <div className="bg-yellow-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-yellow-800">Wellness & Well-being training</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 2.</p> */}
-                                </div>
-                            </li>
-                            <li>
-                                <div className="bg-orange-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-orange-800">Stress Management In The Workplace</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 3.</p> */}
-                                </div>
-                            </li><li className="mb-3">
-                                <div className="bg-green-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-green-800">Mental Health Awareness</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 1.</p> */}
-                                </div>
-                            </li>
-                            <li className="mb-3">
-                                <div className="bg-yellow-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-yellow-800">Nutrition & Healthy Eating</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 2.</p> */}
-                                </div>
-                            </li>
-                            <li>
-                                <div className="bg-orange-200 rounded-md p-4 shadow-md">
-                                    <h3 className="text-lg font-semibold text-orange-800">Resilience and Emotional Well-being</h3>
-                                    {/* <p className="text-gray-700">Description or details about Program 3.</p> */}
-                                </div>
-                            </li>
+                <div className='my-5 border border-orange-600 rounded-3xl w-full h-auto flex justify-around items-center flex-row flex-wrap '>
+                    <div className="">
+                        <h3 className="h3 text-center text-3xl text-bold text-gray-700 pt-10">Mentoring Programmes</h3>
+                        <ul className='list-disc flex flex-row gap-10 flex-wrap pt-5 pb-3 px- justify-center items-center text-gray-600'>
+                            <div className="">
+                                <li className='md:text-xl text-md'>Mentorship Programme</li>
+                                <li className='md:text-xl text-md'>Counselling Programme</li>
+                                <li className='md:text-xl text-md'>Employment Programme</li>
+                                <li className='md:text-xl text-md'>Youth Programme</li>
+                            </div>
+                            <div className="">
+                                <li className='md:text-xl text-md'>Team building </li>
+                                <li className='md:text-xl text-md'>Corporate team building</li>
+                            </div>
                         </ul>
                     </div>
-                    <div className="offering-right offering-right-3 w-full h-full">
-                        {/* hummer */}
+                    <div className='h-full w-auto md:p-5 p-0 flex justify-center items-center'>
+                        <img src={image3} className="sm:w-full md:w-80 h-1/3 border rounded-3xl" alt='awesome' />
                     </div>
                 </div>
+
+                <div className='my-5 border border-orange-600 rounded-3xl w-full h-auto flex justify-around items-center flex-row flex-wrap '>
+                    <div className='h-full w-auto md:p-5 p-0 flex justify-center items-center'>
+                        <img src={image4} className="sm:w-full md:w-80 h-1/3 border rounded-3xl" alt='awesome' />
+                    </div>
+                    <div className="">
+                        <h3 className="h3 text-center text-3xl text-bold text-gray-700 pt-10">Personal Development Programmes</h3>
+                        <ul className='list-disc flex flex-row gap-10 flex-wrap pt-5 pb-3 px- justify-center items-center text-gray-600'>
+                            <div className="">
+                                <li className='md:text-xl text-md'>Upskilling and Reskilling Training</li>
+                                <li className='md:text-xl text-md'>Wellness & Well-being Training</li>
+                                <li className='md:text-xl text-md'>Stress Management in The WorkPlace</li>
+                                <li className='md:text-xl text-md'>Mental Health Awareness</li>
+                            </div>
+                            <div className="">
+                                <li className='md:text-xl text-md'>Nutrition & Healthy Eating</li>
+                                <li className='md:text-xl text-md'>Resilience & Emotional Well-being</li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+
             </section>
 
         </section>
