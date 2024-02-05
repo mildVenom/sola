@@ -21,7 +21,7 @@ const Navigation = () => {
                     <li className=" no-underline capitalize hover:text-orange-700">
                         <Link to="/about"  className=" nav-li active:text-orange-500">About</Link>
                     </li> 
-                    <li className=" no-underline capitalize hover:text-orange-700">
+                    <li className=" no-underline capitalize hover:text-orange-700 hover:rounded-full">
                         <Link to="/whatWeOffer" className=" nav-li active:text-orange-500 text-nowrap">What we offer</Link>
                     </li>
                 </ul>
@@ -32,7 +32,7 @@ const Navigation = () => {
                     onClick={toggleNav}
                     className="text-white focus:outline-none"
                 >
-                    {isNavOpen ? 'Close' : 'Menu'}
+                    {isNavOpen ? <box-icon name='x'></box-icon> : <box-icon name='menu-alt-right'></box-icon>}
                 </button>
             </div>
 
