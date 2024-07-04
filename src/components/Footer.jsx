@@ -51,7 +51,7 @@ function Footer() {
                 '>info@theschooloflifeart.com</a></p>
               </div>
               <div className="flex-1 flex flex-row gap-3">
-                <box-icon name='current-location' color="#bc4110"></box-icon>
+                <box-icon name='world' type="solid" color="#bc4110"></box-icon>
                 <p>P.O BOX 16796 00100, Nairobi Kenya, Raphta Road Westlands</p>
               </div>
             </div>
@@ -59,7 +59,9 @@ function Footer() {
 
         </div>
       </div>
-      <div className="w-full text-center py-4 font-medium text-lg">&copy; The School Of Life Art, {year} </div>
+      <div className="w-full text-center pt-4 pb-1 font-medium text-lg">&trade; The School Of Life Art, {year} </div>
+      {/* NOTE: This is a copyright attribution stamp. Do not remove without written consent by the developer. Contact antony123muriithi@gmail.com to that effect. */}
+      <div className="w-full text-center pb-2 text-slate-600 text-sm">Developed and maintained by <a target='_blank noopener noreferrer' href="https://linkedin.com/in/muriithigakuru"><span className="text-[#bc4110] font-semibold text-md">Antony Gakuru</span></a></div>
     </section>
   )
 }
