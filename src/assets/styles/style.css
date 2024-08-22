@@ -10,19 +10,19 @@
     --bane: #5f1c01;
 }
 .hand-cursor{
-    cursor: url('../images/hand.svg') 10 10, auto !important;
+    cursor: url('../images/hand.svg') 4 4, auto !important;
 }
 .hero-background{
-    cursor: url('../images/cursor.svg') 10 10, auto;
+    cursor: url('../images/cursor.svg') 4 4, auto;
 }
 .inner-hero{
     background: linear-gradient(291deg, rgba(241, 116, 35, 0.75) 0.61%, rgba(217, 217, 217, 0.00) 102.08%) !important;
 }
 .nav-list a{
-    cursor: url('../images/hand.svg') 10 10, auto;
+    cursor: url('../images/hand.svg') 4 4, auto;
 }
 button{
-    cursor: url('../images/hand.svg') 10 10, auto !important;
+    cursor: url('../images/hand.svg') 4 4, auto !important;
 }
 
 ::-webkit-scrollbar {
@@ -73,20 +73,20 @@ button{
     display: inline-block;
 }
 .see-more-programs{
-    cursor: url('../images/hand.svg') 10 10, auto !important;
+    cursor: url('../images/hand.svg') 4 4, auto !important;
 }
 .about-landing{
-    cursor: url('../images/cursor-yellow.svg') 10 10, auto;;
+    cursor: url('../images/cursor-yellow.svg') 4 4, auto;;
 }
 .quote{
     height: 90vh !important;
-    cursor: url("../images/cursor-yellow.svg") 10 10, auto;
+    cursor: url("../images/cursor-yellow.svg") 4 4, auto;
 }
 .get-started{
-    cursor: url('../images/cursor.svg') 10 10, auto;
+    cursor: url('../images/cursor.svg') 4 4, auto;
 }
 .footer{
-    cursor: url('../images/cursor-green.svg') 10 10, auto;
+    cursor: url('../images/cursor-green.svg') 4 4, auto;
 }
 .footer-inner{
     background: linear-gradient(291deg, rgba(241, 116, 35, 0.75) 0.61%, rgba(217, 217, 217, 0.00) 102.08%) !important;

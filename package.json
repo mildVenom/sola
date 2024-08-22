@@ -20,6 +20,7 @@
     "autoprefixer": "^10.4.16",
     "boxicons": "^2.1.4",
     "gatsby": "^5.13.1",
+    "gatsby-image": "^3.11.0",
     "gatsby-plugin-image": "^3.13.0",
     "gatsby-plugin-manifest": "^5.13.0",
     "gatsby-plugin-postcss": "^6.13.0",
