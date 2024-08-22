@@ -3,8 +3,6 @@ import '../assets/styles/style.css'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import LandingPage from "../components/landingPage/LandingPage"
-import About from "../components/landingPage/about";
-import WhatWeOffer from "../components/landingPage/whatWeOffer";
 import Navigation from "../components/NavBar";
 import Footer from "../components/Footer";
 
