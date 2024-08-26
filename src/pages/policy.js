@@ -545,12 +545,12 @@ function policy() {
                                 <section id="contact" className="mb-8">
                                         <h2 className="text-2xl font-semibold mb-4">How Can You Contact Us About This Notice?</h2>
                                         <p className="text-lg mb-4">
-                                                If you have questions or comments about this notice, you may contact our Data Protection Officer (DPO) by email at <a href="mailto:raychelkarugu.rk@gmail.com" className="text-blue-500 underline">raychelkarugu.rk@gmail.com</a>, by phone at <a href="tel:0728375563" className="text-blue-500 underline">0728375563</a>, or contact us by post at:
+                                                If you have questions or comments about this notice, you may contact our Data Protection Officer (DPO) by email at <a href="mailto:raychelkarugu.rk@gmail.com" className="text-blue-500 underline">raychelkarugu.rk@gmail.com</a>, by phone at <a href="tel:+254 795402998" className="text-blue-500 underline">+254 795402998</a>, or contact us by post at:
                                         </p>
                                         <address className="text-lg mb-4">
                                                 The School of Life Art<br />
                                                 Data Protection Officer<br />
-                                                Westlands 16947<br />
+                                                Westlands 29498<br />
                                                 Nairobi, Nairobi<br />
                                                 Kenya
                                         </address>
